@@ -7,36 +7,50 @@ import { CiBookmark } from "react-icons/ci";
 
 const SidebarLink = () => {
   return (
-    <div className="min-h-screen h-full bg-blueGray p-4">
+    <nav className="min-h-screen h-full bg-blueGray p-4">
       <div className="text-center">
         <MdFitbit size={34} className="mx-auto" />
         <h2 className="text-xl font-medium uppercase mt-1">Byte</h2>
       </div>
 
-      <div className="flex flex-col items-center justify-center gap-8 mt-24">
-        <a href="#">
-          <RxDashboard size={24} />
-        </a>
-        <a href="#">
-          <PiTrendUp size={24} />
-        </a>
-        <a href="#">
-          <MdOutlineChatBubbleOutline size={24} className="text-green" />
-        </a>
-        <a href="#">
-          <LuImage size={24} />
-        </a>
-        <a href="#">
-          <FiMusic size={24} />
-        </a>
-        <a href="#">
-          <CiBookmark size={24} />
-        </a>
-        <a href="#">
-          <PiSignOut size={24} />
-        </a>
-      </div>
-    </div>
+      <ul className="flex flex-col items-center justify-center gap-8 mt-24">
+        <li>
+          <a href="#">
+            <RxDashboard size={24} />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <PiTrendUp size={24} />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <MdOutlineChatBubbleOutline size={24} className="text-green" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <LuImage size={24} />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <FiMusic size={24} />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <CiBookmark size={24} />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <PiSignOut size={24} />
+          </a>
+        </li>
+      </ul>
+    </nav>
   );
 };
 
