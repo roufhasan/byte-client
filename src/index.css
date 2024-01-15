@@ -2,3 +2,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scrollbar-light {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(190, 190, 190);
+}
+
+.scrollbar-light::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scrollbar-light::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-light::-webkit-scrollbar-thumb {
+  background-color: rgb(136, 135, 135);
+  border-radius: 20px;
+  border: 1px solid transparent;
+}
