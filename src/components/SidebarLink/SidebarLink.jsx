@@ -7,7 +7,7 @@ import { CiBookmark } from "react-icons/ci";
 
 const SidebarLink = () => {
   return (
-    <nav className="min-h-screen h-full bg-blueGray p-4">
+    <nav className="h-screen bg-blueGray overflow-y-auto scrollbar-light p-4">
       <div className="text-center">
         <MdFitbit size={34} className="mx-auto" />
         <h2 className="text-xl font-medium uppercase mt-1">Byte</h2>

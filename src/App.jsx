@@ -5,7 +5,7 @@ import TopNavbar from "./components/TopNavbar/TopNavbar";
 
 const App = () => {
   return (
-    <div className="min-h-screen h-full w-full max-w-[1920px] bg-darkBlue text-white font-Roboto flex mx-auto">
+    <div className="w-full max-w-[1920px] bg-darkBlue text-white font-Roboto flex mx-auto">
       <SidebarLink />
       <section className="w-full">
         <TopNavbar />
