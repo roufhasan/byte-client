@@ -9,33 +9,33 @@ const SideNavHistory = () => {
         <h2 className="text-3xl font-medium capitalize mb-6">Text generator</h2>
 
         <ul className="flex flex-col gap-2">
-          <li className="flex items-center gap-2 border-2 border-green rounded-3xl px-3 py-2">
+          <li className="bg-blueGray flex items-center gap-2 border-2 border-green rounded-3xl px-3 py-2">
             <MdOutlineChatBubbleOutline size={24} className="text-gray-300" />
             <p className="text-gray-400 capitalize">
               Impact of AI on User Experiences
             </p>
           </li>
-          <li className="flex items-center gap-2 border-2 border-green rounded-3xl px-3 py-2">
+          <li className="bg-blueGray flex items-center gap-2 border-2 border-green rounded-3xl px-3 py-2">
             <MdOutlineChatBubbleOutline size={24} className="text-gray-300" />
             <p className="text-gray-400 capitalize">
               voice user interface (VUI)
             </p>
           </li>
-          <li className="flex items-center gap-2 border-2 border-green rounded-3xl px-3 py-2">
+          <li className="bg-blueGray flex items-center gap-2 border-2 border-green rounded-3xl px-3 py-2">
             <MdOutlineChatBubbleOutline size={24} className="text-gray-300" />
             <p className="text-gray-400 capitalize">data driven UX</p>
           </li>
-          <li className="flex items-center gap-2 border-2 border-green rounded-3xl px-3 py-2">
+          <li className="bg-blueGray flex items-center gap-2 border-2 border-green rounded-3xl px-3 py-2">
             <MdOutlineChatBubbleOutline size={24} className="text-gray-300" />
             <p className="text-gray-400 capitalize">
               chatbots and conversational AI
             </p>
           </li>
-          <li className="flex items-center gap-2 border-2 border-green rounded-3xl px-3 py-2">
+          <li className="bg-blueGray flex items-center gap-2 border-2 border-green rounded-3xl px-3 py-2">
             <MdOutlineChatBubbleOutline size={24} className="text-gray-300" />
             <p className="text-gray-400 capitalize">Visual recognition in UX</p>
           </li>
-          <li className="flex items-center gap-2 border-2 border-green rounded-3xl px-3 py-2">
+          <li className="bg-blueGray flex items-center gap-2 border-2 border-green rounded-3xl px-3 py-2">
             <MdOutlineChatBubbleOutline size={24} className="text-gray-300" />
             <p className="text-gray-400 capitalize">Eithical AI design</p>
           </li>

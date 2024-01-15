@@ -1,3 +1,4 @@
+import Chat from "./components/Chat/Chat";
 import SideNavHistory from "./components/SideNavHistory/SideNavHistory";
 import SidebarLink from "./components/SidebarLink/SidebarLink";
 import TopNavbar from "./components/TopNavbar/TopNavbar";
@@ -8,10 +9,9 @@ const App = () => {
       <SidebarLink />
       <section className="w-full">
         <TopNavbar />
-        <div className="flex h-[calc(100vh-72px)]">
+        <div className="h-[calc(100vh-72px)] flex">
           <SideNavHistory />
-          {/* main content will be here */}
-          <section>main content will be here</section>
+          <Chat />
         </div>
       </section>
     </div>
